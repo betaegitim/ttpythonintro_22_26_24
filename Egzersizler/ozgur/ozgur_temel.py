@@ -1,1 +1,1 @@
-print("merhaba")
+giris = input("Adınızı Giriniz:")
