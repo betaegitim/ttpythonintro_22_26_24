@@ -3,8 +3,8 @@ import os
 # filename = 
 for item in liste:
     filename = ""
-    filename = f"{item}_" + "ilk.ipynb"
+    filename = f"{item}_" + "temel.py"
     if not os.path.exists(f"Egzersizler/{item}/"):
         os.mkdir(f"Egzersizler/{item}/")
-        open(f"Egzersizler/{item}/{filename}","w+")
+    open(f"Egzersizler/{item}/{filename}","w+")
 
