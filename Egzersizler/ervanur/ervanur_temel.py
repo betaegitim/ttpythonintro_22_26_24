@@ -1,1 +1,1 @@
-print{"Merhaba!"}
+print{"Merhaba!", 2}
