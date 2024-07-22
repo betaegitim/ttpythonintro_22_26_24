@@ -1,2 +1,4 @@
-giris=input(print("yasinizi giriniz"))
-print(giris)
+
+giris=input("Yaşınız: ")
+print("Sizin Yaşınız ",giris)           
+

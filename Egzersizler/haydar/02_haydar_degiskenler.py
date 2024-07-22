@@ -1,0 +1,2 @@
+print("Değişkenler_kaydet")
+
