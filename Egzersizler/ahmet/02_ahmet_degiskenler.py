@@ -17,3 +17,5 @@ print(type(var6))
 print(type(var7))
 print(type(var8))
 print(type(var9))
+
+input ("isminiz=")

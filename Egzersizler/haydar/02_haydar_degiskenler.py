@@ -1,2 +1,0 @@
-print("Değişkenler_kaydet")
-
