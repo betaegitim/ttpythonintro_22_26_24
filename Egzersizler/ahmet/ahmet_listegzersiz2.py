@@ -9,18 +9,13 @@ yukarıda yer alan liste için;<br>
 Beklenen sonuç:
 []
 """
-
-liste = [41, 63, 100, 34, 12, 62, 90, 47, 52]
-liste2=liste
-liste3=[1000]
-print("Orijinal Liste: ",liste)
-liste.append(1000)
-print("1. cevap      : ",liste)
+liste=[41, 63, 100, 34, 12, 62, 90, 47, 52]
+liste.append(100) 
+print(liste)
 liste.pop(2)
-print("2. cevap      : ",liste)
-liste[1]=liste[1]*100
-print("3. cevap      : ",liste)
+liste[1]=100*liste[1]
+print(liste)
 liste.sort(reverse=True)
-print("4. cevap      : ",liste)
-liste2.reverse()
-print("5. cevap      : ",liste2)
+print(liste)
+liste.reverse()
+print(liste)
