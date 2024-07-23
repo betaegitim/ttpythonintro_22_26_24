@@ -1,4 +1,6 @@
-liste = ["ahmet","emrullah","ervanur","fatih","haydar","mustafa","nurican","ozgur","rabia","zeynep","cevaplar","halilyasin"]
+liste = ["ahmet","emrullah","ervanur","fatih",
+# "haydar",
+"mustafa","nurican","ozgur","rabia","zeynep","cevaplar","halilyasin"]
 import os
 import shutil
 konu = "02_01_ifegzersiz"
@@ -10,7 +12,7 @@ if konu.find("egzersiz") > 0:
         filename = f"02_{item}_{konu}.ipynb"
         kaynak = f"Egzersizler/cevaplar/{konu}.ipynb"
         hedef = f"Egzersizler/{item}/{filename}"
-        # os.remove(hedef)
+        os.remove(hedef)
         shutil.copy(kaynak,hedef)
 else:
     for item in liste:
