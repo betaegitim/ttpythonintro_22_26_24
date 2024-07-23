@@ -10,6 +10,7 @@ if konu.find("egzersiz") > 0:
         filename = f"02_{item}_{konu}.ipynb"
         kaynak = f"Egzersizler/cevaplar/{konu}.ipynb"
         hedef = f"Egzersizler/{item}/{filename}"
+        os.remove(hedef)
         shutil.copy(kaynak,hedef)
 else:
     for item in liste:
