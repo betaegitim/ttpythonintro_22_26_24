@@ -3,7 +3,7 @@ liste = ["ahmet","emrullah","ervanur","fatih",
 "mustafa","nurican","ozgur","rabia","zeynep","cevaplar","halilyasin"]
 import os
 import shutil
-konu = "Donguler_02"
+konu = "02_02_donguleregzersiz"
 if konu.find("egzersiz") > 0:
     egzersizliste = liste.copy()
     egzersizliste.remove("cevaplar")
@@ -12,7 +12,7 @@ if konu.find("egzersiz") > 0:
         filename = f"02_{item}_{konu}.ipynb"
         kaynak = f"Egzersizler/cevaplar/{konu}.ipynb"
         hedef = f"Egzersizler/{item}/{filename}"
-        os.remove(hedef)
+        # os.remove(hedef)
         shutil.copy(kaynak,hedef)
 else:
     for item in liste:
