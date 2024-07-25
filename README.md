@@ -6,3 +6,4 @@ Eğitim sırasında paylaşılan linkler
 * https://i.am.ai/roadmap/#note
 * https://roadmap.sh/ai-data-scientist
 * https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A
+* https://medium.com/@ibrahimediz/python-ile-yaz%C4%B1lm%C4%B1%C5%9F-bir-proje-ait-proje-yap%C4%B1s%C4%B1-nas%C4%B1l-olmal%C4%B1-58cb77901e0b

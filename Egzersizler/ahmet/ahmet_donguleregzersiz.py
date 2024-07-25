@@ -8,10 +8,10 @@
     "2. 10000 sayısına kadar olan armstrong sayılarını ekrana yazdıran python kodunu yazınız"
    
 
-sayi=int(input("Bir sayı giriniz:"))
-if sayi<=10:
-print("10'dan büyük bir sayı giriniz!")
+ sayi=int(input("Bir sayı giriniz:"))
+ if sayi<=10:
+    print("10'dan büyük bir sayı giriniz!")
 else:
     for (int i=1;sayi;i++):
-        for int(j=2;i;j++):
-            if i % j == 0:
+        for int(j=1;i;j++):
+            if (i % j == 0) and (i==j): 
