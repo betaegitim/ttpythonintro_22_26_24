@@ -11,3 +11,7 @@ Eğitim sırasında paylaşılan linkler
     - https://github.com/NVISOsecurity/evtx-hunter
     - https://github.com/martinmathurine/Windows-Event-Log-Analyser/tree/main
     - https://github.com/ine-labs/ThreatSeeker
+* https://scrapeops.io/selenium-web-scraping-playbook/python-selenium-bypass-cloudflare/
+
+* kullanılan komut
+- pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org <package_name>
