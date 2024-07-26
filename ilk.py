@@ -3,7 +3,7 @@ liste = ["ahmet","emrullah","ervanur","fatih",
 "mustafa","nurican","ozgur","rabia","zeynep","cevaplar","halilyasin"]
 import os
 import shutil
-konu = "03_03_fonksiyonlar"
+konu = "06_01_oop1_egzersiz"
 if konu.find("egzersiz") > 0:
     egzersizliste = liste.copy()
     egzersizliste.remove("cevaplar")
